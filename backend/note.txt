@@ -1,0 +1,5 @@
+ASP.NET Core Backend using CQRS, DDD, Clean Architecture.
+- JWT Authentication
+- Consent-based Chat History with SQL Server encryption
+- Azure OpenAI or Self-hosted LLM integration
+- Audit Logging and HTTPS Enforcement

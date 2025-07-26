@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI HealthBot</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="container py-5">
+    <div class="card shadow rounded-3 p-4">
+      <h2 class="text-2xl font-bold text-center mb-3">AI HealthBot</h2>
+
+      <div id="consent-section" class="mb-4 text-center">
+        <p class="text-sm text-gray-700">Do you consent to store chat history?</p>
+        <button class="btn btn-success me-2" onclick="giveConsent(true)">Yes</button>
+        <button class="btn btn-danger" onclick="giveConsent(false)">No</button>
+      </div>
+
+      <div id="chat-section" class="d-none">
+        <div id="chat-log" class="mb-3 border p-2 rounded bg-white" style="height: 300px; overflow-y: auto;"></div>
+        <input type="text" id="userInput" class="form-control mb-2" placeholder="Ask a health question..." />
+        <button class="btn btn-primary w-100" id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/chat.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+HIPAA Compliance Checklist:
+- [x] SSL (HTTPS) enforced
+- [x] Authentication via JWT
+- [x] Consent Logging
+- [x] Audit Logging (access and activity)
+- [x] Data encryption at rest and in transit
+- [ ] Business Associate Agreement (BAA) signed
+- [ ] Penetration Testing scheduled
