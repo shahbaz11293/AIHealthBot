@@ -64,7 +64,7 @@ A privacy-focused, consent-driven AI health chatbot designed for Australian user
 
 ## 💬 Frontend Features
 
-- React + Tailwind SPA
+- HTML,Bootstrap + Tailwind SPA
 - **ConsentModal**: users must accept use and get an anonymous token
 - **ChatBox**: sends messages, displays replies
 - Token stored in `localStorage`, sent via `Authorization: Bearer {token}` header
